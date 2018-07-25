@@ -1,0 +1,299 @@
+body {
+  font-family: 'Chela one', cursive;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 30px 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+header h1 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 2.5em;
+  margin: 0 auto;
+  height: 50px;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: black;
+}
+
+
+.login {
+  float: right;
+}
+/**
+.login {
+  margin-right: 5%;
+  float: right;
+  height: 50px;
+  font-family: 'Chela one', cursive;
+  text-transform: uppercase;
+  background: #4ae;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.5em;
+
+}
+**/
+h1 img {
+  padding: 0 5%;
+  float: left;
+  height: 50px;
+}
+
+.realbody {
+  position: relative;
+  top: 115px;
+  z-index: 0;
+}
+
+.sawitem {
+  position: absolute;
+  top: 5px;
+  padding-left: 5%;
+  float: left;
+}
+
+.picture {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  padding-bottom: 80px;
+  border-top: 1px solid #f7f7f7;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+
+
+
+h2 {
+  font-size: 1.5em;
+  color: #e67e39;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 5px;
+}
+
+
+.picture img {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  margin-bottom: 15%;
+}
+
+div.picture img:hover{
+  border: 5px solid #4ae;
+}
+
+footer img:hover {
+  border: 5px solid #4ae;
+}
+
+
+footer {
+   position:fixed;
+   bottom:0;
+   height:50px;
+   width:100%;
+   background:#f7f7f7;
+   z-index: 1;
+   box-shadow: 1px 1px 5px #888888;
+   padding: 5px 0;
+
+}
+
+.LLbutton img{
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  background: #ffffff;
+  height: 50px;
+  border-radius: 5%;
+  border: #f7f7f7 solid 5px;
+}
+
+.Lbutton img{
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  background: #ffffff;
+  height: 50px;
+  transform: translate(-50%, 0);
+  border-radius: 5%;
+  border: #f7f7f7 solid 5px;
+}
+
+.Mbutton img{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background: #ffffff;
+  height: 50px;
+
+  transform: translate(-50%, 0);
+  border-radius: 5%;
+  border: #f7f7f7 solid 5px;
+
+}
+
+.Rbutton img{
+  position: absolute;
+  left: 70%;
+  bottom: 0;
+  background: #ffffff;
+  height: 50px;
+  transform: translate(-50%, 0);
+  border-radius: 5%;
+  border: #f7f7f7 solid 5px;
+}
+
+.RRbutton img{
+  position: absolute;
+  left: 90%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  background: #ffffff;
+  height: 50px;
+  border-radius: 5%;
+  border: #f7f7f7 solid 5px;
+}
+
+.id {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 50px;
+  background: tomato;
+  line-height: 50px;
+}
+
+.password{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 50px;
+  background: tomato;
+  line-height: 50px;
+}
+/**
+.blue-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 5px;
+  background: #4ae;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.blue-button:hover {
+  background: #1595ea;
+}
+**/
+
+/**
+.container {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background: #55d6aa;
+}
+
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  position: absolute;
+      top: 30px; bottom:0; left: 0; right:0;
+      margin: auto;
+  padding: 10px 0;
+}
+
+
+
+nav {
+  float:none;
+}
+
+nav ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#arraybutton {
+  float: left;
+}
+
+#searchlogin {
+  float: right;
+  margin-right: 70px;
+position: relative;
+}
+**/
